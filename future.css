@@ -1,0 +1,39 @@
+.whole-page {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30vw;
+    gap: 100px;
+
+}
+
+.timeline {
+    width: 20px;
+    height: 800px;
+    background-color: darkblue;
+}
+
+.left-events {
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    gap: 100px;
+}
+
+.right-events {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.timeline-element img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.timeline-element img:hover {
+    transform: scale(1.2);
+}

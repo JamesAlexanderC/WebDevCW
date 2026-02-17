@@ -1,0 +1,86 @@
+body {
+    background-color: red;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-left:100px;
+
+}
+
+.event {
+    background-color: red;
+    width: 20rem;
+    padding: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    
+}
+
+.event:hover {
+    
+    border-color: yellow;
+} 
+
+.event .headline {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.event .description {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    width: 100%;
+    
+}
+
+.gallery-row-1 {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.gallery-row-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.gallery-row-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.gallery-element {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: white;
+}
+
+.gallery-element img:hover {
+    transform: scale(1.2);
+}
