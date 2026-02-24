@@ -1,0 +1,41 @@
+.NavBar {
+    background-color: lightblue;
+    position: sticky;
+    top: 0;
+}
+
+.NavBar nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+
+.NavBar nav a:first-of-type {
+    margin-left: auto;
+}
+
+.NavBar h3 {
+    font-size: 24px;
+    margin-left: 5rem;
+}
+
+.NavBar a {
+    margin-right: 5rem;
+}
+
+.NavBar a:hover {
+    background-color: #34495e;
+}
+
+.Footer {
+    background-color: lightblue;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.Footer h2 {
+    margin: 0;
+    font-size: 18px;
+}

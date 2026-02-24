@@ -26,6 +26,18 @@
     gap: 100px;
 }
 
+.timeline-element h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 20px;
+}
+
+.timeline-element p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
 .timeline-element img {
     width: 140px;
     height: 140px;

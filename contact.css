@@ -1,0 +1,108 @@
+.NavBar {
+    background-color: lightblue;
+    position: sticky;
+    top: 0;
+    background: black;
+}
+
+.NavBar nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+
+.NavBar nav a:first-of-type {
+    margin-left: auto;
+}
+
+.NavBar h3 {
+    font-size: 24px;
+    margin-left: 5rem;
+}
+
+.NavBar a {
+    margin-right: 5rem;
+}
+
+.NavBar a:hover {
+    background-color: grey;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-container h1 {
+    color: grey;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    font-family: 'Arial', sans-serif;
+}
+
+.name, .email, .message {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label {
+    font-size: 14px;
+    color: grey;
+    
+}
+
+.form input, .form textarea {
+    padding: 12px;
+    font-size: 14px;
+    background-color: white;
+}
+
+.form textarea {
+    min-height: 120px;
+}
+
+.submit-btn {
+    background-color: black;
+    font-size: 16px;
+    align-self: flex-start;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: navy;
+}
+
+.map-container {
+    margin-top: 50px;
+    padding-top: 40px;
+}
+
+.map-container h2 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.map-container p {
+    color: grey;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+

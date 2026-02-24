@@ -1,22 +1,22 @@
-body {
-    background-color: red;
-}
-
 .timeline {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 40px;
-    padding-left:100px;
+    padding-top: 5vw;
+    margin: 0 auto;
+    align-items: center;
 
 }
 
 .event {
-    background-color: red;
+    background-color: lightblue;
     width: 20rem;
     padding: 5px;
     border-width: 5px;
     border-style: solid;
-    border-color: red;
+    border-color: lightblue;
+    color: black;
     
 }
 
@@ -46,9 +46,10 @@ body {
 .gallery-column {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 50px;
+    gap: 50px;
     width: 100%;
+    margin: 0 auto;
+    align-items: center;
     
 }
 
@@ -56,21 +57,21 @@ body {
     padding-top: 50px;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 50px;
 
 }
 
 .gallery-row-2 {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 50px;
 
 }
 
 .gallery-row-3 {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 50px;
 
 }
 
@@ -78,7 +79,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-size: 14px;
-    color: white;
+    color: black;
+}
+
+.gallery-element .description {
+    color: black;
 }
 
 .gallery-element img:hover {
