@@ -76,7 +76,7 @@
 }
 
 .submit-btn {
-    background-color: black;
+    background-color: navy;
     font-size: 16px;
     align-self: flex-start;
     margin-top: 10px;
@@ -85,7 +85,7 @@
 }
 
 .submit-btn:hover {
-    background-color: navy;
+    background-color: blue;
 }
 
 .map-container {

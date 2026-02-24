@@ -25,17 +25,30 @@
 }
 
 .NavBar a:hover {
-    background-color: #34495e;
+    background-color: blue;
 }
 
-.Footer {
+.Footer nav {
     background-color: lightblue;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5rem;
     padding: 30px;
     margin-top: 50px;
+    bottom: 0;
 }
 
-.Footer h2 {
+.Footer h3 {
     margin: 0;
-    font-size: 18px;
+    font-size: 24px;
+    margin-left: 5rem;
+}
+
+.Footer a {
+    margin-right: 5rem;
+}
+
+.Footer a:hover {
+    background-color: blue;
 }
